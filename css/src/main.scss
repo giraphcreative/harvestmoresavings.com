@@ -245,6 +245,10 @@ header {
 .quiet {
 	color: $grey-dark;
 	font-size: .8em;
+
+	&.under-calculator {
+		margin-top: -15px;
+	}
 }
 
 // calculator styles
