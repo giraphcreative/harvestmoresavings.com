@@ -17,6 +17,7 @@ $black: #231F20;
 $orange: #F47D20;
 $tan: #D6D5D4;
 $maroon: #831528;
+$spruce: #3F525C;
 
 $link-color: $maroon;
 
@@ -81,7 +82,9 @@ header {
 .bg-grey-light { background: #999999; }
 .bg-grey-medium { background: #828282; }
 .bg-grey-dark { background: #606160; }
-
+.bg-spruce { background: $spruce; }
+.bg-spruce-light { background: rgba( $spruce, .5 ); }
+.bg-spruce-lighter { background: rgba( $spruce, .2 ); }
 
 
 // text colors
@@ -102,7 +105,7 @@ header {
 
 
 .rate-info {
-	background-color: #dddddd;
+	background: rgba( $spruce, .1 );
 	padding: 20px;
 
 	h3 {
@@ -252,6 +255,13 @@ header {
 		position: relative;
 
 		.third.first {
+			text-align: center;
+		}
+
+		.quiet {
+			color: $grey-dark;
+			font-size: .8em;
+			padding-top: 15px;
 			text-align: center;
 		}
 
