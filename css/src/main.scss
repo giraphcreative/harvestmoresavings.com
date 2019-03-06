@@ -104,6 +104,9 @@ header {
 .text-maroon { color: $maroon; }
 
 
+.text-right { text-align: right; }
+
+
 .rate-info {
 	background: rgba( $spruce, .1 );
 	padding: 20px;
@@ -239,6 +242,11 @@ header {
 
 
 
+.quiet {
+	color: $grey-dark;
+	font-size: .8em;
+}
+
 // calculator styles
 .calculators {
 	@include respond-to( 1024px ) {
@@ -255,13 +263,6 @@ header {
 		position: relative;
 
 		.third.first {
-			text-align: center;
-		}
-
-		.quiet {
-			color: $grey-dark;
-			font-size: .8em;
-			padding-top: 15px;
 			text-align: center;
 		}
 
