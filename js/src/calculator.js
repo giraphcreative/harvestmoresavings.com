@@ -16,6 +16,7 @@ $(function(){
 		response_output_div: ".result.auto",
 		response_compare:"You Save: <strong>$%savings%</strong>",
 		error_text:"",
+		/*
 		callback:function(elem, data){
 			console.log( data );
 			if ( typeof( data.savings ) !== 'undefined' ) {
@@ -24,6 +25,7 @@ $(function(){
 				}
 			}
 		}
+		*/
 	});
 
 	/*
